@@ -1,0 +1,9 @@
+Cloning into 'gem5'...
+remote: Enumerating objects: 310317, done.
+remote: Counting objects: 100% (333/333), done.
+remote: Compressing objects: 100% (75/75), done.
+remote: Total 310317 (delta 291), reused 258 (delta 258), pack-reused 309984 (from 3)
+Receiving objects: 100% (310317/310317), 227.02 MiB | 1.23 MiB/s, done.
+Resolving deltas: 100% (237840/237840), done.
+Updating files: 100% (11081/11081), done.
+

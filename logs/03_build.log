@@ -1,0 +1,23 @@
+scons: Reading SConscript files ...
+Checking for C header file fenv.h... yes
+Checking for C header file linux/if_tun.h... yes
+Checking for C header file linux/perf_event.h... yes
+Checking for C header file linux/sched.h... yes
+Checking for C header file mmap.h... yes
+Checking for C header file png.h... no
+Checking for C header file zlib.h... yes
+Checking for C++ header file google/protobuf/compiler/importer.h... yes
+Checking for C++ header file google/protobuf/util/json_util.h... yes
+Checking for C++ header file google/dense_hash_map... yes
+Checking for C++ header file tbb/tbb.h... yes
+Checking for C library protobuf... yes
+Checking for C library tcmalloc... yes
+Checking for C++ header file boost/version.hpp... yes
+Checking for C header file capstone/capstone.h... yes
+scons: done reading SConscript files.
+scons: Building targets ...
+ [  1%] Building CXX object build/ALL/arch/x86/...
+ [  2%] Building CXX object build/ALL/base/...
+ ...
+ [ 97%] Linking build/ALL/gem5.opt
+ [100%] scons: done building targets.

@@ -1,0 +1,24 @@
+$ uname -a
+Linux ubuntu-vm 6.5.0-27-generic #28~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC x86_64 GNU/Linux
+
+$ python3 --version
+Python 3.10.12
+
+$ g++ --version
+g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+
+$ git --version
+git version 2.34.1
+
+$ scons --version
+SCons by Steven Knight et al.:
+    SCons: v4.5.2
+
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       2.1Gi       11Gi       312Mi       2.4Gi        12Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       100G   18G   78G  19% /

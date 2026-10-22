@@ -1,0 +1,15 @@
+$ ls -l build/ALL/gem5.opt
+-rwxr-xr-x 1 student student 312483920 Oct 21 14:05 build/ALL/gem5.opt
+
+$ file build/ALL/gem5.opt
+build/ALL/gem5.opt: ELF 64-bit LSB pie executable, x86-64, version 1 (GNU/Linux), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
+
+$ ./build/ALL/gem5.opt --help
+Usage: gem5.opt [options] <config script> [config script args]
+
+Options:
+  --help                show this help message and exit
+  --outdir=DIR          set the output directory (default: m5out)
+  --redirect-stdout     redirect stdout to simout
+  --redirect-stderr     redirect stderr to simerr
+  ...
